@@ -1,12 +1,12 @@
 <h1 align="center">Router Project</h1>
 
-<!-- Status -->
+## :heavy_check_mark: Status ##
 
-<!-- <h4 align="center"> 
-	🚧  Router 🚀 <a href="">Live</a>  🚧
+<h4 align="center"> 
+	🚧  Router 🚀 [Live](https://fortnite-router-p7q2j.ondigitalocean.app/)  🚧
 </h4> 
 
-<hr> -->
+<hr>
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
