@@ -1,12 +1,8 @@
-<h1 align="center">Router Project</h1>
+<h1 align="center">Fortnite Router Project</h1>
 
-## :white_check_mark: Status
 
-<h4 align="center"> 
-	🚀 &#xa0; | &#xa0; Router  <a href="https://fortnite-router-p7q2j.ondigitalocean.app/">Live </a>✔️ &#xa0; | &#xa0; 🚀
-</h4>
 
-<hr>
+
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
@@ -19,6 +15,11 @@
 </p>
 
 <br>
+## :white_check_mark: Status
+
+<h4 > 
+	🚀 &#xa0; | &#xa0; Fortnite router is <a href="https://fortnite-router-p7q2j.ondigitalocean.app/">Live </a>✔️!&#xa0; | &#xa0; 🚀
+</h4>
 
 ## :dart: About
 
