@@ -30,8 +30,8 @@ const About = () => {
 			</h1>
 			<h1>
 				Application Tech
-				<section className='icon_Container'>
-					<p>
+				<ul className='icon_Container'>
+					<li>
 						HTML5
 						<a
 							href='https://www.w3schools.com/html/'
@@ -40,60 +40,37 @@ const About = () => {
 						>
 							<SiHtml5 className='icon' />
 						</a>
-					</p>
-					<p>
+					</li>
+					<li>
 						CSS3
 						<a href='https://www.w3schools.com/css/' rel='noreferrer' target='_blank'>
 							<SiCss3 className='icon' />
 						</a>
-					</p>
-					<p>
+					</li>
+					<li>
 						JavaScript
 						<a href='https://javascript.info/' rel='noreferrer' target='_blank'>
 							<SiJavascript className='icon' />
 						</a>
-					</p>
-					<p>
+					</li>
+					<li>
 						React
 						<a href='https://reactjs.org/' rel='noreferrer' target='_blank'>
 							<SiReact className='icon' />
 						</a>
-					</p>
-					<p>
+					</li>
+					<li>
 						React-router
 						<a href='https://reactrouter.com/' rel='noreferrer' target='_blank'>
 							<SiReactrouter className='icon' />
 						</a>
-					</p>
-				</section>
+					</li>
+				</ul>
 			</h1>
 			<h1>
 				Application Resources
-				<section className='resources'></section>
-				<p>
-					<a
-						className='inlineLink'
-						href='https://www.freecodecamp.org/'
-						rel='noreferrer'
-						target='_blank'
-					>
-						FCC
-					</a>{' '}
-					- An invaluable, free resource for teaching programing fundamentals.
-				</p>
-				<p>
-					<a
-						className='inlineLink'
-						href='https://www.w3schools.com/'
-						rel='noreferrer'
-						target='_blank'
-					>
-						W3Schools
-					</a>{' '}
-					- By far the best reference for the technical documenation of every
-					front-end language.
-				</p>
-				<p>
+				<ul className='resources'>
+				<li>
 					<a
 						className='inlineLink'
 						href='https://fortnite-api.com/'
@@ -103,7 +80,31 @@ const About = () => {
 						Fortnite-API
 					</a>{' '}
 					- A free, and incredibly accessible API provided by Epic Games.
-				</p>
+				</li>
+				<li>
+					<a
+						className='inlineLink'
+						href='https://www.freecodecamp.org/'
+						rel='noreferrer'
+						target='_blank'
+					>
+						FCC
+					</a>{' '}
+					- An invaluable, free resource for teaching programing fundamentals.
+				</li>
+				<li>
+					<a
+						className='inlineLink'
+						href='https://www.w3schools.com/'
+						rel='noreferrer'
+						target='_blank'
+					>
+						W3Schools
+					</a>{' '}
+					- The best reference for front-end technical docs.
+				</li>
+
+				</ul>
 			</h1>
 		</div>
 	);
