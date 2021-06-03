@@ -6,12 +6,12 @@ const Nav = () => {
 				<h3>Home</h3>
 			</Link>
 			<ul className='navLinks'>
-				<Link to='/shop' className='navStyle'>
-					<li>Shop</li>
-				</Link>
-				<Link to='/about' className='navStyle'>
-					<li>About</li>
-				</Link>
+			<li><Link to='/shop' className='navStyle'>
+					Shop
+				</Link></li>
+				<li><Link to='/about' className='navStyle'>
+					About
+				</Link></li>
 			</ul>
 		</nav>
 	);
