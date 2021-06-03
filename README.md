@@ -3,7 +3,7 @@
 ## :white_check_mark: Status
 
 <h4 align="center"> 
-	🚀  Router  <a href="https://fortnite-router-p7q2j.ondigitalocean.app/">Live ✅</a> &#xa0; | &#xa0; ()  🚀
+	🚀 &#xa0; | &#xa0; Router  <a href="https://fortnite-router-p7q2j.ondigitalocean.app/">Live </a>✔️ &#xa0; | &#xa0; 🚀
 </h4>
 
 <hr>
