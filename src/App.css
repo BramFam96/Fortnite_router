@@ -50,7 +50,7 @@ code {
 	overflow-x: hidden;
 }
 
-a:visited {
+a, a:visited {
 	color: white;
 }
 a:hover {
@@ -258,6 +258,7 @@ nav > * {
 }
 
 .inlineLink {
+	color:white;
 	background: rgba(0, 0, 0, 0.35);
 	padding: 0.1rem;
 	border-radius: 10px;
