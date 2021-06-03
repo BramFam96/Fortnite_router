@@ -1,10 +1,10 @@
 <h1 align="center">Router Project</h1>
 
-## :heavy_check_mark: Status ##
+## :white_check_mark: Status
 
 <h4 align="center"> 
-	🚧  Router 🚀 [Live](https://fortnite-router-p7q2j.ondigitalocean.app/)  🚧
-</h4> 
+	🚀  Router  <a href="https://fortnite-router-p7q2j.ondigitalocean.app/">Live ✅</a> &#xa0; | &#xa0; ()  🚀
+</h4>
 
 <hr>
 
@@ -20,17 +20,17 @@
 
 <br>
 
-## :dart: About ##
+## :dart: About
 
 This project accesses and displays current, and upcoming items in the Fortnite item shop. I made it primarily to demonstrate my ability to build and deploy a multipage React application.
 
-## :sparkles: Features ##
+## :sparkles: Features
 
 :heavy_check_mark: Displays current and upcoming items on the shop tab;\
 :heavy_check_mark: Generates unique, semantic URLs for individual items;\
 :heavy_check_mark: Fully responsive without media-queries;
 
-## :rocket: Technologies ##
+## :rocket: Technologies
 
 The following tools were used in this project:
 
@@ -39,12 +39,11 @@ The following tools were used in this project:
 - [ReactJS](https://pt-br.reactjs.org/)
 - [React-router](https://reactrouter.com/)
 
-
-## :white_check_mark: Requirements ##
+## :white_check_mark: Requirements
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Starting
 
 ```bash
 # Clone this project
@@ -62,10 +61,9 @@ $ yarn start
 # The server will initialize in the <http://localhost:3000>
 ```
 
-## :memo: License ##
+## :memo: License
 
-This project is under license from MIT. 
-
+This project is under license from MIT.
 
 Made with :heart: by <a href="https://github.com/BramFam96" target="_blank">Matthew Bramlett</a>
 
