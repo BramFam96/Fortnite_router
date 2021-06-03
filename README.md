@@ -1,11 +1,3 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Router" img="./public/icons8-golden-fever-64.png"/>
-
-  &#xa0;
-
-  <!-- <a href="https://router.netlify.app">Demo</a> -->
-</div>
-
 <h1 align="center">Router Project</h1>
 
 <!-- Status -->
