@@ -102,6 +102,7 @@ nav > * {
 .home > * {
 	background: transparent;
 	margin: 0;
+	overflow-y:auto;
 }
 
 .welcome_Banner {
@@ -218,6 +219,7 @@ nav > * {
 	background: rgba(0, 0, 0, 0.35);
 	font-size: clamp(2rem, 4vw, 3rem);
 	line-height: 105%;
+
 }
 
 .about > * > * {
@@ -245,6 +247,7 @@ nav > * {
 	gap: 2rem;
 }
 
+
 .icon {
 	color: white;
 	transform: scale(3);
@@ -262,6 +265,7 @@ nav > * {
 }
 .inlineLink:hover {
 	outline: 2px solid white;
+	transform:scale(1.2);
 }
 .resources {
 	display: flex;
