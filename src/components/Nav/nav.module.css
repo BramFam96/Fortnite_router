@@ -1,0 +1,45 @@
+/*Nav Styling*/
+nav {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	min-height: 12ch;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.35);
+	border-bottom: 5px solid white;
+}
+nav > * {
+	color: white;
+	font-size: clamp(1.75rem, 2.1vw, 2.1rem);
+	font-weight: 700;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: max(2.5rem, 3vw);
+}
+nav > * > * {
+	padding:0.25rem;
+}
+nav > * > *:hover {
+	background:rgba(0, 0, 0, 0.35);
+	
+	border-radius:10px;
+	transform:scale(1.2);
+}
+
+nav >* >*:active {
+	outline:2px solid white;
+}
+.nav_link_container {
+
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	list-style: none;
+}

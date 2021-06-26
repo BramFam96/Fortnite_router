@@ -1,0 +1,44 @@
+.home > * {
+	background: transparent;
+	margin: 0;
+	overflow-y:auto;
+}
+
+.home_Banner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+
+	width: 100%;
+	height: clamp(350px, 30vw, 600px);
+	font-size: 2rem;
+	background: rgba(0, 0, 0, 0.35);
+}
+
+.home_Msg {
+	width: 100%;
+	padding: 2.5vw;
+	background: rgba(0, 0, 0, 0.35);
+}
+
+.home_Link {
+	width: clamp(200px, 30vw, 450px);
+	height: clamp(100px, 15vw, 225px);
+	color: white;
+	background: rgba(0, 0, 0, 0.35);
+	font-size: clamp(1.75rem, 3vw, 3rem);
+
+	margin: 1rem;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+.home_Link:hover {
+	background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
+.home_Link:active {
+	transform: scale(1.1);
+	color: gray;
+}

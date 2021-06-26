@@ -1,15 +1,16 @@
 import { Link } from 'react-router-dom';
+import {nav_link_container, homebutton} from './nav.module.css';
 const Nav = () => {
 	return (
 		<nav>
-			<Link to='/' className='navStyle'>
+			<Link to='/' className={homebutton}>
 				<h3>Home</h3>
 			</Link>
-			<ul className='navLinks'>
-			<li><Link to='/shop' className='navStyle'>
+			<ul className={nav_link_container}>
+			<li><Link to='/shop' >
 					Shop
 				</Link></li>
-				<li><Link to='/about' className='navStyle'>
+				<li><Link to='/about' >
 					About
 				</Link></li>
 			</ul>

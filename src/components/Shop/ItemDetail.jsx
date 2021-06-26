@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import {item_Container, item_Details, item_Image, item_Type} from './shop.module.css';
 
 const ItemDetail = ({ match }) => {
 	useEffect(() => {
@@ -20,14 +21,14 @@ const ItemDetail = ({ match }) => {
 		console.log(item.data.item);
 	};
 	return (
-		<div className='item_Container'>
-			<div className='details'>
+		<div className={item_Container}>
+			<div className={item_Details}>
 				<h1>
 					{item.name}:<p>{item.description}</p>
 				</h1>
 
-				<img className='image' src={item.images.background} alt='' />
-				<h2 className='item_Type'>
+				<img className={item_Image} src={item.images.background} alt='' />
+				<h2 className={item_Type}>
 					{item.rarity} {item.type}
 				</h2>
 			</div>

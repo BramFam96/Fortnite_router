@@ -1,11 +1,12 @@
 import React from 'react';
-import './App.css';
-import Home from './components/Home'
-import Nav from './components/Nav';
-import Shop from './components/Shop'
-import About from './components/About';
-import ItemDetail from './components/ItemDetail';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Home from './components/Home/Home.jsx'
+import Nav from './components/Nav/Nav.jsx';
+import Shop from './components/Shop/Shop.jsx'
+import About from './components/About/About.jsx';
+import ItemDetail from './components/Shop/ItemDetail.jsx';
+import './App.css';
+
 
 const App = () => {
   return (
